@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@100;300;400;800&family=Tilt+Neon&display=swap');
+
+header{
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    margin: 0;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    font-size: 1.5rem;
+}
+
+
+img{
+    width: 13rem;
+}
+
+nav a{
+    color: black;
+    padding: 1rem;
+    transition: 0.5s ease;
+    transform: scale(1);
+    text-decoration: none;
+}
+
+nav a:hover {
+    transform: scale(1.25);
+    font-size: 2rem;  
+  }
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.imageboxlong{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+
+    margin-bottom: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.imageboxlong img {
+    width: 100%;
+    filter: brightness(50%);
+
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    color: white;
+  }
+
+  .content{
+    padding: 3rem;
+    margin: auto;
+  }
+
+.content li{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.content p{
+    font-size: 1.5rem;
+}
+.content h2{
+    font-size: 1.5rem;
+}
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin: 1rem;
+}
+
+  footer{
+    background-color: #101b4a;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding:2rem;
+  }
+
+  footer p{
+    color: white;
+  }
+
+  .imagegallery {
+    float: left;
+    margin: 1rem;
+
+  }
+
+  .imagegallery img{
+    width: 500px;
+  }
+  
